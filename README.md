@@ -1,2 +1,2 @@
 # Sezerb.github.io
-First steps to web programming
+Personal informative web site
