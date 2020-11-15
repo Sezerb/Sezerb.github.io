@@ -1,39 +1,40 @@
-html {
-  font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
-  font-family: 'Oswald', sans-serif;
-  background-color: #74AFAD;
-}
-
-h1 {
-  margin: 0;
-  padding: 20px 0;    
-  color: #558C89;
-  text-shadow: 3px 3px 1px black;
-}
-
-p, li {
-  font-size: 16px;    
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #D9853B;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
-
-img {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-  border-radius: 8px;
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
 }
-
-button {
-	background-color: #00539F;
-	color: white;
+.bg-2 { 
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.bg-4 { 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
 }
 

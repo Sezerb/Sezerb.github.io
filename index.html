@@ -1,22 +1,78 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>"Sezer's Page"</title>
-		<link href="styles/style.css" rel="stylesheet" type="text/css">
-		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>		
-	</head>
-	<body>
-		<h1>Welcome to my personel web page!</h1>
-		<img src="images/Sezer.jpg" alt="My test image">
-		<p class="parag1">
-		Please check my <a href="https://tr.linkedin.com/in/sezer-bağlan-5613a54a">linkedin</a> for further information.
-		</p>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet" type="text/css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
 
-		<p class="parag3">
-		Please check <a href="http://sezerb.blogspot.com.tr/">Sezer's blog</a> for my sharings about specific technical issues.
-		</p>
-		<!-- <button>Change user</button> -->
-		<script src="scripts/main.js"></script>
-	</body>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#first-container">WHO</a></li>
+        <li><a href="#second-container">WHAT</a></li>
+        <li><a href="#third-container">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id="first-container">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="images/Sezer.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Sezer" width="350" height="350">
+  <h3>I'm a senior software engineer and architect</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="second-container">
+  <h3 class="margin">What Have I Done So Far?</h3>
+  <p>I worked around 9 years in consumer electronics designing and developing embedded software for new generation smart TVs.
+	  I'm currently working in industrial automation domain where we are developing network service solutions 
+	  and platforms for Siemens products.
+  </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="third-container">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Please contact via <a href="https://tr.linkedin.com/in/sezer-bağlan-5613a54a">linkedin</a></p>
+      <img src="images/linkedin.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-6"> 
+      <p>Please contact via <a href="https://github.com/Sezerb">Github</a></p>
+      <img src="images/github.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Thanks for this Bootstrap theme made by <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+</footer>
+
+</body>
 </html>
