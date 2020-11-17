@@ -37,4 +37,9 @@ p {font-size: 16px;}
 .navbar-nav  li a:hover {
   color: #1abc9c !important;
 }
+.sm_icon{
+ 
+  width: 200px;
+  /* the height is adjusted automatically*/
+}
 
